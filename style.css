@@ -1,0 +1,139 @@
+body{
+    background-color: antiquewhite;
+}
+.head{
+    height: 400px;
+    width: 1000px;
+    text-align: center;
+    font-size: 50px;
+    text-transform: uppercase;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 700;
+    font-style: italic;
+    border: 5px solid #C58940;
+    line-height: 1.8;
+    background-color: darkseagreen;
+    color: whitesmoke;
+    border-radius: 50px;
+    margin-left:400px ;
+  
+    padding: 20px 20px 20px 20px;
+    position: relative;
+}
+#one{
+   height: 550px;
+   width: 350px;
+   text-align: center;
+   border: 5px ;
+   margin-left: 750px;
+   text-transform: uppercase;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 700;
+    font-size: 25px;
+    margin-bottom: 10px;
+   
+}
+#one img{
+    height: 400px;
+    width: 300px;
+    border-radius: 50%;
+}
+
+hr{
+    border: none;
+    padding: 0px;
+    margin-bottom: 100px;
+    height: 4px;
+    background-color: blueviolet;
+}
+#two{
+    height: 390px;
+    width: 400px;
+    border: 10px solid black;
+    padding: 20px 20px 20px 20px;
+    background-color: cadetblue;
+    font-family: "Lilita One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: capitalize;
+    line-height: 1.4;
+    border-radius: 50px;
+}
+#two h2{
+    text-align: center;
+}
+#three{
+    height:390px;
+    width: 400px;
+    border: 10px solid black;
+    padding: 20px 20px 20px 20px;
+    margin-left: 460px;
+    background-color: gold;
+    font-family: "Lilita One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: capitalize;
+    line-height: 1.25;
+    border-radius: 50px;
+}
+#three h2{
+    text-align: center;
+}
+ul li{
+    margin-bottom: 5px;
+}
+#four{
+    background-color: indianred;
+    height: 390px;
+    width: 400px;
+    border: 10px solid black;
+    margin-left:920px ;
+    padding: 20px 20px 0px 20px;
+    font-family: "Lilita One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: capitalize;
+    line-height: 1.4;
+    border-radius: 50px;
+    
+}
+#four h2{
+    text-align: center;
+    margin-top: 60px;
+}
+#five{
+    height: 390px;
+    width: 400px;
+    border :10px solid black;
+    margin-left: 460px;
+    padding: 20px 20px 20px 20px;
+    font-family: "Lilita One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: capitalize;
+    background-color:peru;
+    line-height: 1.4;
+    border-radius: 50px;
+}
+#five h2 {
+    text-align: center;
+    margin-top: 70px;
+}
+#six{
+    height: 390px;
+    width: 400px;
+    border :10px solid black;
+    padding: 20px 20px 20px 20px;
+    font-family: "Lilita One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: capitalize;
+    background-color:mediumaquamarine;
+    line-height: 1.4;
+    border-radius: 50px;
+ 
+}
+#six h2{
+    text-align: center;
+    margin-top: 70px;
+}
