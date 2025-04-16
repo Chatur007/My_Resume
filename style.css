@@ -137,7 +137,7 @@ div#line{
     height: 4px;
     background-color: blueviolet;
 }
-@media (max-width:681px){
+@media (max-width:425px){
     #Education{
         margin-left: 15%;
         margin-bottom: 50px;
