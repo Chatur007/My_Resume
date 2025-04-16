@@ -1,26 +1,23 @@
 body{
     background-color: antiquewhite;
 }
-.head{
-    height: 400px;
+.heading{
+    height: 200px;
     width: 1000px;
     text-align: center;
-    font-size: 50px;
+    font-size: 40px;
     text-transform: uppercase;
     font-family: "Libre Baskerville", serif;
     font-weight: 700;
     font-style: italic;
     border: 5px solid #C58940;
-    line-height: 1.8;
     background-color: darkseagreen;
     color: whitesmoke;
     border-radius: 50px;
     margin-left:400px ;
-  
     padding: 20px 20px 20px 20px;
-    position: relative;
 }
-#one{
+#my_image{
    height: 550px;
    width: 350px;
    text-align: center;
@@ -30,23 +27,17 @@ body{
     font-family: "Libre Baskerville", serif;
     font-weight: 700;
     font-size: 25px;
-    margin-bottom: 10px;
+    margin-bottom: 50px;
    
 }
-#one img{
-    height: 400px;
+#my_image img{
+    height: 400px; 
     width: 300px;
     border-radius: 50%;
 }
 
-hr{
-    border: none;
-    padding: 0px;
-    margin-bottom: 100px;
-    height: 4px;
-    background-color: blueviolet;
-}
-#two{
+
+#Education{
     height: 390px;
     width: 400px;
     border: 10px solid black;
@@ -59,10 +50,10 @@ hr{
     line-height: 1.4;
     border-radius: 50px;
 }
-#two h2{
+#Education h2{
     text-align: center;
 }
-#three{
+#Skills{
     height:390px;
     width: 400px;
     border: 10px solid black;
@@ -76,13 +67,13 @@ hr{
     line-height: 1.25;
     border-radius: 50px;
 }
-#three h2{
+#Skills h2{
     text-align: center;
 }
 ul li{
     margin-bottom: 5px;
 }
-#four{
+#hobbi{
     background-color: indianred;
     height: 390px;
     width: 400px;
@@ -97,11 +88,11 @@ ul li{
     border-radius: 50px;
     
 }
-#four h2{
+#hobbi h2{
     text-align: center;
     margin-top: 60px;
 }
-#five{
+#project{
     height: 390px;
     width: 400px;
     border :10px solid black;
@@ -115,11 +106,11 @@ ul li{
     line-height: 1.4;
     border-radius: 50px;
 }
-#five h2 {
+#project h2 {
     text-align: center;
     margin-top: 70px;
 }
-#six{
+#Declar{
     height: 390px;
     width: 400px;
     border :10px solid black;
@@ -133,7 +124,68 @@ ul li{
     border-radius: 50px;
  
 }
-#six h2{
+#Declar h2{
     text-align: center;
     margin-top: 70px;
+}
+div#line{
+    display: block;
+    width: 2000px;
+    border: none;
+    padding: 0px;
+    margin-bottom: 100px;
+    height: 4px;
+    background-color: blueviolet;
+}
+@media (max-width:681px){
+    #Education{
+        margin-left: 15%;
+        margin-bottom: 50px;
+    }
+    #Skills{
+        margin-left: 15%;
+        margin-bottom: 50px;
+    }
+    #hobbi{
+        margin-left: 15%;
+        margin-bottom: 50px;
+    }
+    #project{
+        margin-left: 15%;
+        margin-bottom: 50px;
+    }
+    #Declar{
+        margin-left: 15%;
+        margin-bottom: 50px;
+    }
+    #my_image img{
+        float: right;
+        margin-bottom: 20px;
+
+    }
+    #my_image{
+        margin-left: 20%;
+    }
+    #my_image h3{
+        font-size: 20px;
+        text-align: center;
+        margin-left:40px ;
+    }
+    #my_image h2{
+        margin-left:40px 
+    }
+    .heading{
+        display: inline-block;
+        height: 100px;
+        width: 600px;
+        margin-left: 0px;
+    }
+    .heading h1{
+        font-size: 40px;
+        text-align: center;
+    }
+    div#line{
+        width: 650px;
+    }
+
 }
