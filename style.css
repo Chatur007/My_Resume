@@ -128,15 +128,6 @@ ul li{
     text-align: center;
     margin-top: 70px;
 }
-div#line{
-    display: block;
-    width: 2000px;
-    border: none;
-    padding: 0px;
-    margin-bottom: 100px;
-    height: 4px;
-    background-color: blueviolet;
-}
 @media (max-width:680px){
     #Education{
         margin-left: 15%;
