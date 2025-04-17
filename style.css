@@ -1,6 +1,9 @@
 body{
     background-color: antiquewhite;
 }
+.main{
+    flex:1
+}
 .heading{
     height: 200px;
     width: 1000px;
@@ -128,6 +131,7 @@ ul li{
     text-align: center;
     margin-top: 70px;
 }
+
 @media (max-width:680px){
     #Education{
         margin-left: 15%;
